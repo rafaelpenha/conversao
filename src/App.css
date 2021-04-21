@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(228, 33, 33);
+}
+
+
+.entrada{
+  font-size: 2em;
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+
+
+}
+.botoes{
+  margin-bottom: 30px;
+  
+}
+.dolar{
+  font-size: 2em;
+  border-radius: 10px;
+ 
+}
+.dolar:hover{
+  cursor: pointer;
+  background-color: darkseagreen;
+
+}
+.real{
+  font-size: 2em;
+  border-radius: 10px;
+}
+.real:hover{
+  cursor: pointer;
+  background-color: darkseagreen;
+
+}
+
+.convertido{
+  font-size: 2em;
+  border-radius: 10px;
+}
